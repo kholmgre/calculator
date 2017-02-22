@@ -1,0 +1,34 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.number_button {
+    flex-grow: 1;
+}
+
+.input {
+    width: 190px;
+}
+
+.button_row {
+    display: flex;
+    width: 190px;
+}
+
+.numbers {
+    display: flex;
+    align-items: stretch;
+    width: 190px;
+}
